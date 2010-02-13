@@ -1,0 +1,63 @@
+body {
+  font-size: 13px;
+  line-height: 140%;
+  background-color: #272927;
+  text-align: center;
+}
+
+body, input {
+  font-family: 'Lucida Grande', Helvetica, sans-serif;
+}
+
+#login {
+  background: #E8E8E8;
+  width: 250px;
+  padding: 10px;
+  margin: 100px auto 20px auto;
+  text-align: left;
+  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#login div {
+  margin: 5px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+.inline {
+  display: inline;
+}
+
+input {
+  font-size: 1.4em;
+  border: 1px solid #ccc;
+  padding: 5px;
+  
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+input.with_placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+#commit {
+  background: #8D8D8D none;
+  border: none;
+  color: #e1e1e1;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 1px 10px;
+  text-shadow: 0 1px 1px #3e3e3e;
+  
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+#commit:hover {
+  background: #9DB5DA none;
+}

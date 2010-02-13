@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>A Proper Sign In Form</title>
+	<script src="jquery-1.4.1.min.js" type="text/javascript"></script>
+	<script src="login.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+
+<body>
+
+<form action="signin.html" method="post" id="login">
+  <div>
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" placeholder="foo@bar.com" required="required" autofocus="autofocus" />
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required="required" placeholder="Password" />
+  </div>
+  <div>
+    <input type="checkbox" name="remember" id="remember" /><label for="remember" class="inline">Remember Me</label>
+    <input type="submit" name="commit" value="Continue" id="commit">
+  </div>
+</form>
+
+</body>
+</html>
